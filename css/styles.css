@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+}
+
+/* Sections styling */
+.section-box {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 30px;
+  margin-bottom: 30px;
+  min-height: 500px; /* делает страницу достаточно длинной для скролла */
+}
+
+/* Headings */
+h2, h3 {
+  margin-bottom: 20px;
+}
+
+/* Center text for menu items in mobile */
+.navbar-nav li a {
+  text-align: center;
+}
